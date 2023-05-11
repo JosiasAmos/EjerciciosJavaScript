@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+main {
+  background-color: #ecc9ee;
+  font-family: 'Sen', sans-serif;
+}
+nav{
+  background: #9384D1;
+  font-family: 'Sen', sans-serif;
+}
+
+.col{
+  background-color: #FFDCB6;
+}
+a{
+  margin: 20px;
+  background-color: #9384D1;
+}
+p{
+  font-family: 'Ubuntu', sans-serif;
+}
+footer{
+  background-color: #C9A7EB;
+  font-size: larger;
+  font-style: oblique;
+}
+.fit-cover {
+  object-fit: cover;
+}

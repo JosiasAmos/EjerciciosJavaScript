@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="AM">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Control submit por evento formulario</title>
+</head>
+<body>
+	<script type="text/javascript" src="js/patrones.js"> </script>
+	<form>
+		 CURP <input type="text" name="txtRFC" maxlength="18" size="18"/>
+		<br/>
+		<input type="submit" onClick="valida(txtRFC);" value="Ok"/>
+	</form>
+    <h2 id="titulo">Resultado de la comprobación:</h2>
+    <h2 id="mensaje"></h2>
+</body>
+</html>
