@@ -9,11 +9,5 @@ function info(cadena) {
    else
       resultado += " está formada por mayúsculas y minúsculas";
       
-   return resultado;
-}
-
-function mostrarResultado() {
-   var cadena = document.getElementById("cadena").value;
-   var resultado = info(cadena);
-   document.getElementById("resultado").innerHTML = resultado;
+   alert(resultado);
 }

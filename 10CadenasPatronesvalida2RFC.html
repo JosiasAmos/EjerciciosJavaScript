@@ -1,20 +1,53 @@
 <!DOCTYPE>
 <html lang="es">
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="AM">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Control submit por evento formulario</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.2.3/dist/pulse/bootstrap.min.css">
+<link rel="stylesheet" href="/css/index.css">
+<title>Ejercicio 10 - Detección de pal&iacute;ndromos</title>
 </head>
 <body>
-	<script type="text/javascript" src="js/patrones.js"> </script>
-	<form>
-		 CURP <input type="text" name="txtRFC" maxlength="18" size="18"/>
-		<br/>
-		<input type="submit" onClick="valida(txtRFC);" value="Ok"/>
-	</form>
-    <h2 id="titulo">Resultado de la comprobación:</h2>
-    <h2 id="mensaje"></h2>
+    <header>
+        <!-- Cabecera -->
+        <nav class="navbar navbar-expand-md py-3">
+            <div class="container"><img class="rounded" src="img/Logos2.png" width="344" height="69"><a class="navbar-brand d-flex align-items-center" href="index.html"><span>Instituto Tecnologíco Nacional | Campus Orizaba</span></a></div>
+        </nav>
+    </header>
+    <main>
+      <noscript>Esta p&aacute;gina <strong>requiere</strong><br>
+        el uso de JavaScript y parece que est&aacute; desactivado
+      </noscript>
+      <div class="container py-4 py-xl-5">
+      <div class="row mb-5"><!-- Encabezado -->
+        <div class="col-md-8 col-xl-6 text-center mx-auto">
+            <h2>Actividad 10.1: Validador de RFC</h2>
+            <p>Esta p&aacute;gina valida el EFC<br>Activa desde el botón enviar</p>
+        </div>
+    </div>
+    <div class="container col-6 text-center">
+        <form>
+          <div class="form-group">
+            <label for="txtRFC">Ingresa el CURP</label>
+            <input type="text" class="form-control" name="txtRFC" maxlength="18" size="18">
+          </div>
+          <button type="submit" class="btn btn-primary" onClick="valida(txtRFC)" value="Ok">Enviar</button>
+        </form>
+      </div>
+      <div class="row-cols-1 text-center"><h2 id="res"> </h2></div>
+    </div>
+    </main>
+    <footer class="text-center py-4 mt-auto">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <p class="text-muted my-2 ">Hecho por el Equipo #7</p>
+              </div>
+          </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/patrones.js"> </script>
 </body>
 </html>
+
+<!DOCTYPE>
+<html lang="es">
